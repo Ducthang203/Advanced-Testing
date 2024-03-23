@@ -1,0 +1,10 @@
+package junit.test;
+
+public class JunitTest {
+	@Test
+	public void testsetUp() {
+		String str ="I am done ";
+		assertEquals("I am done",str);
+	}
+	
+}

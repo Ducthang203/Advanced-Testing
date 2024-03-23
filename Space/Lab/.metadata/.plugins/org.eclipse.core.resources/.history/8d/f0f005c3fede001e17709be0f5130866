@@ -1,0 +1,28 @@
+package lab2;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class MathFuncTest {
+	@Before
+	public void init() {
+		math = new MathFuncTest();
+	}
+	@After
+	public void tearDown() {
+		math = null;
+	}
+	@Test
+	public void calls() {
+		assertEquals(0, math.getCalls());
+		math.factorial(1);
+		assertEquals(1, math.getCalls());
+		math.factorial(1);
+		assertEquals(2, math.getCalls());
+
+	}
+
+}

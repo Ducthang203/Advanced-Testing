@@ -1,0 +1,18 @@
+package junit.test;
+
+import java.util.Iterator;
+
+import javax.naming.spi.DirStateFactory.Result;
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.notification.Failure;
+
+public class TestRunner {
+	public static void main(String[] args) {
+		org.junit.runner.Result result = JUnitCore.runClasses(JunitTest.class);
+		for (Failure failure : result.getFailures()) {
+			type type = (type) .next();
+			
+		}
+	}
+}

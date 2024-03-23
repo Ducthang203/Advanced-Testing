@@ -1,0 +1,10 @@
+package lab2;
+
+public class MathFunc {
+	int calls;
+	public int getCalls() {
+		return calls;
+	}
+	
+	
+}

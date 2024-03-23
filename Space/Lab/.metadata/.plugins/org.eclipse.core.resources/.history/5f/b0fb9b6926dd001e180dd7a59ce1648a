@@ -1,0 +1,10 @@
+package junit;
+import static org.junit.Assert.assertEquals;
+public class testJunit {
+	public void testSetup() {
+		String str="I am done with Junit setup";
+		assertEquals("I am donw with Junit setup",str);
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package lab2;
+
+public class SuiteTest1 {
+
+	public String message = "TuanHung";
+	
+	JUnitMessage junitMessage = new JUnitMessage(message);
+}

@@ -1,0 +1,11 @@
+package iso.lab.vn;
+
+import org.junit.Test;
+
+public class Bai1 {
+	@Test
+	public void testSetup(){
+		String str="I am done with Junit setup";
+		assertEquals("I am done with Junit setup",str);
+	}
+}

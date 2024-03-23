@@ -1,0 +1,6 @@
+package lab2;
+
+public class SuiteTest1 {
+	public String message = "Fpoly";
+
+}

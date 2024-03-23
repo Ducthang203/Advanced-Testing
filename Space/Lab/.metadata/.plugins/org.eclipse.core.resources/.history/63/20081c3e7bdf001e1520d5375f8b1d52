@@ -1,0 +1,25 @@
+package junit.test.lab1;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class lab1 {
+	@Test
+	public void testSetup() {
+		String str ="I am done with Junit setup";
+		assertEquals("I am done with Junit setup", str);
+	}
+
+}
+/*@Before: Phương thức được đánh dấu
+annotation này sẽ được thực thi trước mỗi
+phương thức test.
+@After: Phương thức được đánh dấu annotation
+này sẽ được thực thi sau mỗi phương thức test.
+@BeforeClass: Phương thức được đánh dấu
+annotation này sẽ thực thi trước tất cả các
+phương thức test.
+@AfterClass: Phương thức được đánh dấu với
+annotation này sẽ được thực thi ngay sau khi tất
+cả các test đều được thực hiện*/

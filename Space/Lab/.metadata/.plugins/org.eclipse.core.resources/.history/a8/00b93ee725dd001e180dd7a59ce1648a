@@ -1,0 +1,8 @@
+package junit;
+public class testJunit {
+	public void testSetup() {
+		String str="I am done with Junit setup";
+	}
+	
+	
+}

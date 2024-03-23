@@ -1,0 +1,16 @@
+package lab2;
+
+import javax.naming.spi.DirStateFactory.Result;
+
+import org.junit.runner.JUnitCore;
+
+public class lab2 {
+
+	public static void main(String[] args) throws Exception{
+		// TODO Auto-generated method stub
+		JUnitCore runner = new JUnitCore();
+		org.junit.runner.Result result = runner.run(MathFuncTest.class);
+
+	}
+
+}

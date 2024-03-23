@@ -1,0 +1,9 @@
+package lab2;
+
+import org.junit.Test;
+
+public class SuiteTest1 {
+	public String message ="Fpoly";
+	JUnitMessage junitMessage = newJUnitMessage(message);
+	
+}
